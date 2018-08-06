@@ -1,0 +1,28 @@
+.fas {
+    font-size: 150px;
+}
+
+.header {
+    padding: 15px 0;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #383a3d;
+}
+
+.header > h1 {
+    color: aquamarine;
+}
+
+.gameboard {
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+}
+
+td {
+    border: 6px solid #383a3d;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 32px;
+}
