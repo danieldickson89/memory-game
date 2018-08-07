@@ -1,5 +1,5 @@
 export class Card {
-    classPart1: string;
-    classPart2: string;
+    prefix: string;
+    name: string;
     flipped: boolean;
 }
