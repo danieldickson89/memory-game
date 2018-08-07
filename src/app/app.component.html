@@ -8,96 +8,96 @@
   <table>
     <tr>
       <td>
-        <button id="s1" class="card">
-          <i class="fas fa-bed"></i>
+        <button (click)="showOrHideCard1()">
+          <i id="s1" class="fas fa-bed isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s2" class="card">
-          <i class="fas fa-battery-empty"></i>
+        <button (click)="showOrHideCard2()">
+          <i id="s2" class="fas fa-battery-empty isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s3" class="card">
-          <i class="fab fa-android"></i>
+        <button (click)="showOrHideCard3()">
+          <i id="s3" class="fab fa-android isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s4" class="card">
-          <i class="fab fa-apple"></i>
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <button id="s5" class="card">
-          <i class="fas fa-image"></i>
-        </button>
-      </td>
-      <td>
-        <button id="s6" class="card">
-          <i class="fas fa-camera-retro"></i>
-        </button>
-      </td>
-      <td>
-        <button id="s7" class="card">
-          <i class="fab fa-xbox"></i>
-        </button>
-      </td>
-      <td>
-        <button id="s8" class="card">
-          <i class="fab fa-nintendo-switch"></i>
+        <button (click)="showOrHideCard4()">
+          <i id="s4" class="fab fa-apple isHidden"></i>
         </button>
       </td>
     </tr>
     <tr>
       <td>
-        <button id="s9" class="card">
-          <i class="fab fa-spotify"></i>
+        <button (click)="showOrHideCard5()">
+          <i id="s5" class="fas fa-image isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s10" class="card">
-          <i class="fab fa-itunes"></i>
+        <button (click)="showOrHideCard6()">
+          <i id="s6" class="fas fa-camera-retro isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s11" class="card">
-          <i class="fab fa-sticker-mule"></i>
+        <button (click)="showOrHideCard7()">
+          <i id="s7" class="fab fa-xbox isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s12" class="card">
-          <i class="fab fa-fort-awesome"></i>
+        <button (click)="showOrHideCard8()">
+          <i id="s8" class="fab fa-nintendo-switch isHidden"></i>
         </button>
       </td>
     </tr>
     <tr>
       <td>
-        <button id="s13" class="card">
-          <i class="fas fa-futbol"></i>
+        <button (click)="showOrHideCard9()">
+          <i id="s9" class="fab fa-spotify isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s14" class="card">
-          <i class="fas fa-basketball-ball"></i>
+        <button (click)="showOrHideCard10()">
+          <i id="s10" class="fab fa-itunes isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s15" class="card">
-          <i class="far fa-id-card"></i>
+        <button (click)="showOrHideCard11()">
+          <i id="s11" class="fab fa-sticker-mule isHidden"></i>
         </button>
       </td>
       <td>
-        <button id="s16" class="card" (click)="showCard()">
-          <i class="fas fa-car-side"></i>
+        <button (click)="showOrHideCard12()">
+          <i id="s12" class="fab fa-fort-awesome isHidden"></i>
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button (click)="showOrHideCard13()">
+          <i id="s13" class="fas fa-futbol isHidden"></i>
+        </button>
+      </td>
+      <td>
+        <button (click)="showOrHideCard14()">
+          <i id="s14" class="fas fa-basketball-ball isHidden"></i>
+        </button>
+      </td>
+      <td>
+        <button (click)="showOrHideCard15()">
+          <i id="s15" class="far fa-id-card isHidden"></i>
+        </button>
+      </td>
+      <td>
+        <button (click)="showOrHideCard16()">
+          <i id="s16" class="fas fa-car-side isHidden"></i>
         </button>
       </td>
     </tr>
   </table>
 </div>
 
-<div class="boardContainer">
+<!-- <div class="boardContainer">
 <div class="board">
   <button class="boardButton" *ngFor="let card of cards">
     <i class="{{ card.prefix }} {{ card.name }} memoryCard"></i>
@@ -109,4 +109,4 @@
   <ul>
     <li *ngFor="let card of cards">{{ card.prefix }} {{ card.name }}</li>
   </ul>
-</div>
+</div> -->
