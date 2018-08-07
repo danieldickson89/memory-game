@@ -5,11 +5,12 @@
     color: #2b2a2a;
     width: 100%;
     height: 100%;
-}
+} 
 
 .header {
     padding: 15px 0;
     margin-bottom: 15px;
+    width: 100%;
     text-align: center;
     background-color: #383a3d;
 }
@@ -53,51 +54,14 @@ button {
     cursor: pointer;
 }
 
-.fa-bed {
+.memoryCard {
+    font-size: 125px;
+}
+
+.isVisible {
     visibility: visible;
 }
-.fa-battery-empty {
-    visibility: visible;
-}
-.fa-android {
-    visibility: visible;
-}
-.fa-apple {
-    visibility: visible;
-}
-.fa-image {
-    visibility: visible;
-}
-.fa-camera-retro {
-    visibility: visible;
-}
-.fa-xbox {
-    visibility: visible;
-}
-.fa-nintendo-switch {
-    visibility: visible;
-}
-.fa-spotify {
-    visibility: visible;
-}
-.fa-itunes {
-    visibility: visible;
-}
-.fa-sticker-mule {
-    visibility: visible;
-}
-.fa-fort-awesome {
-    visibility: visible;
-}
-.fa-futbol {
-    visibility: visible;
-}
-.fa-basketball-ball {
-    visibility: visible;
-}
-.fa-id-card {
-    visibility: visible;
-}
-.fa-car-side {
-    visibility: visible;
+
+.isHidden {
+    visibility: hidden;
 }

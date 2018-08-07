@@ -9,4 +9,8 @@ import { CARDS } from './cards';
 export class AppComponent {
   title = 'Memory Game';
   cards = CARDS;
+
+  showCard() {
+    console.log('I clicked the button');
+  }
 }

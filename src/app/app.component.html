@@ -1,98 +1,121 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class='header'>
+<div class="header">
   <h1>
     {{ title }}
   </h1>
 </div>
-<div class='gameboard'>
+<div class="gameboard">
   <table>
     <tr>
       <td>
-        <button class="card">
+        <button id="s1" class="card">
           <i class="fas fa-bed"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s2" class="card">
           <i class="fas fa-battery-empty"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s3" class="card">
           <i class="fab fa-android"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s4" class="card">
           <i class="fab fa-apple"></i>
         </button>
       </td>
     </tr>
     <tr>
       <td>
-        <button class="card">
+        <button id="s5" class="card">
           <i class="fas fa-image"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s6" class="card">
           <i class="fas fa-camera-retro"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s7" class="card">
           <i class="fab fa-xbox"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s8" class="card">
           <i class="fab fa-nintendo-switch"></i>
         </button>
       </td>
     </tr>
     <tr>
       <td>
-        <button class="card">
+        <button id="s9" class="card">
           <i class="fab fa-spotify"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s10" class="card">
           <i class="fab fa-itunes"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s11" class="card">
           <i class="fab fa-sticker-mule"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s12" class="card">
           <i class="fab fa-fort-awesome"></i>
         </button>
       </td>
     </tr>
     <tr>
       <td>
-        <button class="card">
+        <button id="s13" class="card">
           <i class="fas fa-futbol"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s14" class="card">
           <i class="fas fa-basketball-ball"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s15" class="card">
           <i class="far fa-id-card"></i>
         </button>
       </td>
       <td>
-        <button class="card">
+        <button id="s16" class="card" (click)="showCard()">
           <i class="fas fa-car-side"></i>
         </button>
       </td>
     </tr>
   </table>
+</div>
+
+<div>
+  <table>
+    <tr>
+      <td *ngFor="let card of cards">
+        <i class="{{ card.prefix }} {{ card.name }} card"></i>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<div class="board" *ngFor="let card of cards">
+  <span>
+    <i class="{{ card.prefix }} {{ card.name }} memoryCard"></i>
+  </span>
+</div>
+
+<div>
+  <ul>
+    <li *ngFor="let card of cards">{{ card.prefix }} {{ card.name }}</li>
+  </ul>
 </div>
