@@ -97,21 +97,12 @@
   </table>
 </div>
 
-<div>
-  <table>
-    <tr>
-      <td *ngFor="let card of cards">
-        <i class="{{ card.prefix }} {{ card.name }} card"></i>
-      </td>
-    </tr>
-  </table>
-</div>
-
-
-<div class="board" *ngFor="let card of cards">
-  <span>
+<div class="boardContainer">
+<div class="board">
+  <button class="boardButton" *ngFor="let card of cards">
     <i class="{{ card.prefix }} {{ card.name }} memoryCard"></i>
-  </span>
+  </button>
+</div>
 </div>
 
 <div>

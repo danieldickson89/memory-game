@@ -52,6 +52,27 @@ button {
     border: none;
     background-color: rgb(228, 230, 229);
     cursor: pointer;
+    height: 200px;
+    width: 200px;
+}
+
+.boardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    margin: 20px 368px;
+}
+
+.boardButton {
+    border: 6px solid #383a3d;
+    border-radius: 10px;
+    width: 20%;
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px;
 }
 
 .memoryCard {
