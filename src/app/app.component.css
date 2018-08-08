@@ -65,7 +65,7 @@ button:focus {
     outline: 0;
 }
 
-.boardContainer {
+/* .boardContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ button:focus {
 
 .memoryCard {
     font-size: 125px;
-}
+} */
 
 .isVisible {
     visibility: visible;
